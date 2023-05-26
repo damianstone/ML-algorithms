@@ -1,0 +1,10 @@
+### Features (independent variable)
+The features are the column with which you're going to predict the dependent variable
+
+### Dependent variable vector
+The import or the result column: for example, the dataset would be the "purchased"
+because we're looking to predict if some future customers are going to purchase 
+a certain product based on these information
+
+Usually in the last column of the dataset
+
