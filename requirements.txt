@@ -1,5 +1,6 @@
 numpy
 pandas
+sklearn
 scikit-learn
 matplotlib
 seaborn
@@ -8,5 +9,5 @@ joblib
 jupyter
 tensorflow
 keras
-pytorch
+torch
 category_encoders
