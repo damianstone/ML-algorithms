@@ -17,3 +17,17 @@ to handle this missing data is to assing it the average of all salaries
 
 -*- Enconding categorical variable
 One-hot encoding -> represent categorical variables in binary so we don't any order number problems
+
+-*- Splitting the dataset into training and test set
+Think of this like a practice exam. You study (train) using a portion of the questions (training set) 
+and then you evaluate your knowledge using new questions you haven't seen before (test set). 
+This helps verify your understanding and preparation for the real exam
+
+-*- Feature scaling 
+Imagine measuring your height in meters and your weight in grams. They're on completely different scales, right? 
+If we want to compare or combine these two, it'd be easier if they were on a similar scale, like meters and kilograms. 
+That's what feature scaling does - it makes sure all your data is on a similar scale, making it easier for 
+your machine learning model to process and learn from
+
+Two types: Standardisation, Normalisation
+Always use the standardisation
