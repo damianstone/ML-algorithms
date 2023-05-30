@@ -1,0 +1,13 @@
+Simple linear regression is used when we have two variables and we want to model their relationship.
+
+Specifically, we use simple linear regression when:
+
+1- We have a continuous target variable we want to predict based on one continuous predictor variable.
+   For example, predicting a person's weight based on their height.
+
+2- We believe the relationship between the predictor and the target variable is linear,
+   meaning that a change in the predictor leads to a proportional change in the target variable.
+
+3- We want to understand the strength and direction of the relationship between the predictor
+   and the target variable. In other words, we not only want to make predictions,
+   but also interpret the model to understand how the variables are related.
