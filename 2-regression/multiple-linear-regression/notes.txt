@@ -1,0 +1,45 @@
+## Assumtion of linear regression
+Not usen a LG model when the data looks like the assumtions-of-LG image
+
+
+## Dummy variables
+Dummy variables, also known as binary or indicator variables, are used to represent categorical data
+in a numerical format suitable for machine learning models. They typically take a value of 0 or 1
+to indicate the absence or presence of a category
+
+For this excercise a dummy variables needed to be created for the state column
+
+## Dummy variable trap
+Always drop one of the dummy variables, for example, if we have 8 then use 7
+
+## Differents approachs to create models
+Forward Selection:
+In this approach, you start with no variables in the model. In each step, you add the variable that improves
+the model the most, based on a specified criterion. You continue this process until no other variables improve
+the model by a significant amount.
+
+Backward Elimination:
+This is the opposite of forward selection. You start with all variables in the model. In each step, you remove
+the variable that is least significant (i.e., has the least impact on the model). This process continues until
+all variables in the model are significant.
+
+Stepwise Selection:
+This method is a combination of forward selection and backward elimination. In each step, it considers both
+adding a variable (like in forward selection) and removing a variable (like in backward elimination).
+The method continues until no variables can be added or removed to improve the model.
+
+All Possible Models:
+This approach, also known as "best subsets regression", involves fitting all possible combinations of the
+variables and then choosing the model that performs the best according to a specific criterion
+(like the Akaike Information Criterion (AIC) or Bayesian Information Criterion (BIC)).
+This method can become computationally expensive when dealing with a large number of features.
+
+Regularization Methods:
+Regularization adds a penalty term to the loss function that the model is trying to minimize. The two main
+types are L1 regularization (also known as Lasso) and L2 regularization (also known as Ridge). These methods
+can shrink the coefficients of less important variables towards zero, effectively performing feature selection.
+
+Random Forests/Gradient Boosting:
+These are ensemble machine learning methods that can provide feature importance measures, effectively performing
+feature selection as part of the model building process.
+
