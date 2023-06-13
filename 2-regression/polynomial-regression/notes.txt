@@ -1,0 +1,3 @@
+### Polynomial regression
+We need two columns for a polynomial regression model, the first model shuld the feature and second
+the dependent variable (result)
