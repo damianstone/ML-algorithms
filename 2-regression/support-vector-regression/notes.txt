@@ -1,1 +1,19 @@
-###
+Support Vector Regression (SVR) is specifically designed for regression tasks. It extends the concept of Support Vector Machines (SVM) to handle continuous target variables instead of binary classification.
+
+In SVR, the objective is to find a function that best fits the training data while minimizing the prediction error. Here's how SVR works for regression:
+
+Data Preparation: Prepare your training data, which consists of input features (X) and corresponding continuous target values (y).
+
+Feature Scaling: Scale your input features using techniques like Standardization or Normalization to ensure all features are on a similar scale. This step is important for SVR as it uses distance-based calculations.
+
+Kernel Selection: Choose an appropriate kernel function to transform the input data into a higher-dimensional feature space. SVR supports various kernel functions, including Linear, Polynomial, Gaussian (RBF), and Sigmoid. The kernel function captures the nonlinear relationships between features and target values.
+
+Parameter Selection: Tune the hyperparameters of SVR for optimal performance. Key parameters include the kernel type, regularization parameter (C), and kernel-specific parameters (e.g., degree for polynomial kernel or gamma for RBF kernel). These parameters influence the trade-off between model complexity and fitting the training data.
+
+Model Training: Train the SVR model using the scaled features and target values. SVR aims to find the optimal hyperplane that maximizes the margin while keeping the prediction error within a tolerance (epsilon). The model identifies support vectors, which are the data points that contribute to defining the hyperplane.
+
+Prediction: Use the trained SVR model to make predictions on new, unseen data points. The model takes the input features, transforms them using the chosen kernel function, and predicts the corresponding continuous target value.
+
+Inverse Scaling: If you scaled your target values during training, perform inverse scaling on the predicted values to obtain the final predictions in their original scale.
+
+SVR is effective for regression tasks because it can handle nonlinear relationships between features and target values through the use of kernel functions. It can capture complex patterns and adapt to high-dimensional data. However, similar to other models, SVR performance depends on appropriate parameter selection and can be sensitive to outliers. Careful feature scaling and parameter tuning are essential for achieving accurate regression predictions.
