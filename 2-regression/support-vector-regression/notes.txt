@@ -1,10 +1,15 @@
-Support Vector Regression (SVR) is specifically designed for regression tasks. It extends the concept of Support Vector Machines (SVM) to handle continuous target variables instead of binary classification.
+Support Vector Regression (SVR) is specifically designed for regression tasks.
+It extends the concept of Support Vector Machines (SVM) to handle continuous target variables
+instead of binary classification.
 
-In SVR, the objective is to find a function that best fits the training data while minimizing the prediction error. Here's how SVR works for regression:
+In SVR, the objective is to find a function that best fits the training data while minimizing the prediction error.
+Here's how SVR works for regression:
 
-Data Preparation: Prepare your training data, which consists of input features (X) and corresponding continuous target values (y).
+-----Data Preparation: Prepare your training data, which consists of input features (X) and corresponding
+continuous target values (y).
 
-Feature Scaling: Scale your input features using techniques like Standardization or Normalization to ensure all features are on a similar scale. This step is important for SVR as it uses distance-based calculations.
+-----Feature Scaling: Scale your input features using techniques like Standardization or Normalization to ensure
+ all features are on a similar scale. This step is important for SVR as it uses distance-based calculations.
 
 Kernel Selection: Choose an appropriate kernel function to transform the input data into a higher-dimensional feature space. SVR supports various kernel functions, including Linear, Polynomial, Gaussian (RBF), and Sigmoid. The kernel function captures the nonlinear relationships between features and target values.
 
