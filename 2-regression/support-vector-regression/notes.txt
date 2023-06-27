@@ -11,7 +11,9 @@ continuous target values (y).
 -----Feature Scaling: Scale your input features using techniques like Standardization or Normalization to ensure
  all features are on a similar scale. This step is important for SVR as it uses distance-based calculations.
 
-Kernel Selection: Choose an appropriate kernel function to transform the input data into a higher-dimensional feature space. SVR supports various kernel functions, including Linear, Polynomial, Gaussian (RBF), and Sigmoid. The kernel function captures the nonlinear relationships between features and target values.
+------Kernel Selection: Choose an appropriate kernel function to transform the input data into a higher-dimensional
+feature space. SVR supports various kernel functions, including Linear, Polynomial, Gaussian (RBF), and Sigmoid.
+The kernel function captures the nonlinear relationships between features and target values.
 
 Parameter Selection: Tune the hyperparameters of SVR for optimal performance. Key parameters include the kernel type, regularization parameter (C), and kernel-specific parameters (e.g., degree for polynomial kernel or gamma for RBF kernel). These parameters influence the trade-off between model complexity and fitting the training data.
 
