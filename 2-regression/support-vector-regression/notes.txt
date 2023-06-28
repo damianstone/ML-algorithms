@@ -6,7 +6,7 @@ In SVR, the objective is to find a function that best fits the training data whi
 Here's how SVR works for regression:
 
 -----Data Preparation: Prepare your training data, which consists of input features (X) and corresponding
-continuous target values (y).
+continuous target values (y)
 
 -----Feature Scaling: Scale your input features using techniques like Standardization or Normalization to ensure
  all features are on a similar scale. This step is important for SVR as it uses distance-based calculations.
