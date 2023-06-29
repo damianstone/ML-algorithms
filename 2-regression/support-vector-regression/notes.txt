@@ -29,6 +29,7 @@ to defining the hyperplane.
 The model takes the input features, transforms them using the chosen kernel function, and predicts
 the corresponding continuous target value.
 
-Inverse Scaling: If you scaled your target values during training, perform inverse scaling on the predicted values to obtain the final predictions in their original scale.
+------Inverse Scaling: If you scaled your target values during training, perform inverse scaling
+on the predicted values to obtain the final predictions in their original scale.
 
 SVR is effective for regression tasks because it can handle nonlinear relationships between features and target values through the use of kernel functions. It can capture complex patterns and adapt to high-dimensional data. However, similar to other models, SVR performance depends on appropriate parameter selection and can be sensitive to outliers. Careful feature scaling and parameter tuning are essential for achieving accurate regression predictions.
