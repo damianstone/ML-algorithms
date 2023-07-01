@@ -27,7 +27,7 @@ to defining the hyperplane.
 
 ------Prediction: Use the trained SVR model to make predictions on new, unseen data points.
 The model takes the input features, transforms them using the chosen kernel function, and predicts
-the corresponding continuous target value.
+the corresponding continuous target value
 
 ------Inverse Scaling: If you scaled your target values during training, perform inverse scaling
 on the predicted values to obtain the final predictions in their original scale.
