@@ -1,3 +1,7 @@
+SVR focuses on finding a hyperplane that best fits the data within a specified error margin,
+while normal regression models aim to minimize the errors between predicted and actual values.
+
+
 Support Vector Regression (SVR) is specifically designed for regression tasks.
 It extends the concept of Support Vector Machines (SVM) to handle continuous target variables
 instead of binary classification.
