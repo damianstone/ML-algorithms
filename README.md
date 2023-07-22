@@ -1,4 +1,4 @@
-## Machine Learning 45hrs course
+## Machine Learning Notes
 ### Topics
 1. Data Preprocessing
 2. Regression models
