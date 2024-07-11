@@ -12,3 +12,4 @@ keras
 torch
 category_encoders
 apyori
+nltk
