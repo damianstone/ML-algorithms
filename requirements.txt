@@ -13,3 +13,4 @@ torch
 category_encoders
 apyori
 nltk
+opencv-python
