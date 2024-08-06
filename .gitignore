@@ -1,6 +1,7 @@
-venv-ML
-.venv-ML
+venv-ml
+.venv-ml
 venv-ml**
+venv-ml/**
 
 .idea
 
