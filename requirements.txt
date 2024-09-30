@@ -1,5 +1,5 @@
-numpy~=1.23.5
-pandas~=2.0.1
+numpy
+pandas
 scikit-learn
 matplotlib
 seaborn
@@ -13,3 +13,4 @@ category_encoders
 apyori
 nltk
 opencv-python
+xgboost
